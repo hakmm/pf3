@@ -1,0 +1,69 @@
+#news {
+
+}
+#news .wrap {
+  max-width: 1200px;
+}
+#news .wrap h2 {
+
+}
+#news .wrap article {
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#news .wrap article a {
+  display: grid;
+  grid-template-columns: 99px 890px 130px;
+  grid-template-rows: 15px auto auto;
+  row-gap: 12px;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+#news .wrap article a h3 {
+  order: 2;
+}
+#news .wrap article a p {
+  order: 4;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#news .wrap article a time {
+  grid-row: 1 / span 3;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  color: #ccc;
+}
+#news .wrap article a time span {
+  order: 2;
+  font-size: 40px;
+}
+
+#news .wrap article a > span {
+  order: 3;
+  transform: translateY(-27%);
+}
+
+#news .wrap > a {
+  border: 1px solid;
+  display: block;
+  width: 80px;
+  line-height: 3;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#news .wrap > a::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/menu.svg);
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 4px;
+}

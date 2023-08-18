@@ -1,0 +1,106 @@
+#recco {
+
+  margin-top: -180px;
+}
+#recco .wrap {
+  max-width: 1200px;
+}
+#recco .wrap article {
+  width: calc(100% / 2);
+  /*! border: 1px solid; */
+}
+
+#recco .wrap article.recruit {
+  position: relative;
+}
+
+#recco .wrap article.recruit::before {
+  content: "";
+  background-image: url(../img/recruit01.png);
+  background-size: contain;
+  display: block;
+  width: 323px;
+  height: 769px;
+  position: absolute;
+  right: 0;
+  top: -33px;
+  
+}
+
+
+
+
+#recco .wrap article.recruit hgroup {
+
+}
+#recco .wrap article.recruit hgroup h2 {
+  background-color: #E7E7E5;
+  padding: 180px 0 180px 100px;
+}
+#recco .wrap article.recruit hgroup h3 {
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+#recco .wrap article.recruit>*:not(hgroup) {
+  margin-left: 100px;
+}
+
+#recco .wrap article.recruit p {
+
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
+}
+#recco .wrap article.recruit a {
+  margin-bottom: 100px;
+  margin-top: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+#recco .wrap article.recruit::after {
+  content: "";
+  background-color: rgba(255,255,255,0.8);
+  display: block;
+  width: 100%;
+  position: absolute;
+  height: 342px;
+  bottom: 0;
+}
+
+#recco .wrap article.corpo {
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+  background-image: url(../img/recruit02.jpg);
+  background-size: cover;
+}
+
+#recco .wrap article.corpo::before {
+  content: "";
+  border: 1px solid #fff;
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  position: absolute;
+  left: calc(40px / 2);
+  top: calc(40px / 2);
+}
+
+#recco .wrap article.corpo hgroup {
+  flex-direction: column-reverse;
+  gap: 20px;
+  text-align: center;
+}
+#recco .wrap article.corpo hgroup h2 {
+  line-height: 1.2;
+}
+#recco .wrap article.corpo hgroup h3 {
+
+}
+#recco .wrap article.corpo a {
+
+}
