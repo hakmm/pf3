@@ -9,7 +9,7 @@
 ## 클론 웹사이트 스크린 샷 링크
 클론코딩페이지 url : https://hakmm.github.io/pf3/
 
-![Uploading Screenshot 2023-10-23 at 11-52-39 한국알콜산업 KAI.png…]()
+![Screenshot 2023-10-23 at 11-52-39 한국알콜산업 KAI](https://github.com/hakmm/pf3/assets/142555237/ec264494-0738-4920-989b-85c9d4c8f646)
 
 ## 기술 스택
 - HTML
